@@ -1,0 +1,1 @@
+docker run --restart=always --name=myapp -e MYSQL_ROOT_PASSWORD=12345678 -p 3301:80 -v /var/data/laravel:/var/data/laravel php7-3-5_apache_mysql
